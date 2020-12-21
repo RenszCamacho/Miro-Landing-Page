@@ -1,1 +1,33 @@
-//Variables
+//Vars
+$html-font: 62.5%;
+$monserrat: "Montserrat", sans-serif;
+
+// Resets
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $html-font;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
