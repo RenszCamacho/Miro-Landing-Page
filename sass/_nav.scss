@@ -10,6 +10,9 @@ header {
   max-width: 125rem;
   margin: 0 auto;
   padding: 0 1.5rem;
+
+  @include rwd(1000px) {
+  }
 }
 
 .nav {
@@ -18,9 +21,27 @@ header {
   justify-content: space-between;
   align-items: flex-end;
 
+  @include rwd(large) {
+    justify-content: space-around;
+  }
+
+  @include rwd(medium) {
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  @include rwd(small) {
+    flex-direction: column;
+    height: 8rem;
+  }
+
   &__linkLogo {
     display: block;
     width: 8rem;
+
+    @include rwd(small) {
+      margin: 2rem 0;
+    }
   }
 
   &__list {

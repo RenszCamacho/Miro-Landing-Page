@@ -2,10 +2,20 @@
   &__images {
     text-align: center;
     position: relative;
+
+    //rwd.
+    @include rwd(small) {
+      margin-top: 10rem;
+    }
   }
 
   &__blobLarge {
     animation: move-up 2000ms infinite alternate;
+
+    //rwd.
+    @include rwd(medium) {
+      width: 70%;
+    }
   }
 
   &__blobBean {
@@ -14,6 +24,13 @@
     left: -1rem;
     z-index: 10;
     animation: move-down 2000ms infinite alternate;
+
+    //rwd.
+    @include rwd(medium) {
+      width: 30%;
+      top: -1rem;
+      left: 5rem;
+    }
   }
 
   &__blob {
@@ -25,21 +42,50 @@
     top: -11rem;
     left: 50%;
     transform: translateX(-50%);
+
+    //rwd.
+    @include rwd(medium) {
+      display: none;
+    }
   }
 
   &__blobTwo {
     top: 15rem;
     left: 17rem;
+
+    //rwd.
+    @include rwd(medium) {
+      left: 30rem;
+      bottom: -1rem;
+      top: revert;
+      widows: 25%;
+    }
+
+    //rwd.
+    @include rwd(small) {
+      display: none;
+    }
   }
 
   &__blobThree {
     right: 5rem;
     bottom: -24rem;
+
+    //rwd.
+    @include rwd(medium) {
+      right: -3rem;
+      bottom: -25rem;
+    }
   }
 
   &__blobFour {
     left: 21rem;
     bottom: -17rem;
+
+    //rwd.
+    @include rwd(medium) {
+      display: none;
+    }
   }
 }
 

@@ -1,16 +1,41 @@
 .landingPage {
+  &__container {
+    display: flex;
+    justify-content: center;
+
+    @include rwd(large) {
+      margin-top: 15rem;
+    }
+  }
   &__content {
     @include grid;
     align-items: center;
+    width: 90%;
+
+    //rwd.
+    @include rwd(medium) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__contentDetails {
     max-width: 80%;
+
+    //rwd.
+    @include rwd(medium) {
+      order: 1;
+      max-width: 100%;
+    }
   }
 
   &__title {
     font-size: 6rem;
     color: white;
+
+    //rwd.
+    @include rwd(medium) {
+      font-size: 3.5rem;
+    }
   }
 
   &__description {
