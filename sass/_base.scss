@@ -33,3 +33,8 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+//Utilities
+.hue-shift {
+  animation: hue-shift 5000ms infinite alternate;
+}

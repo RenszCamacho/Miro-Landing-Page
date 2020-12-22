@@ -1,0 +1,71 @@
+.landingPage {
+  &__images {
+    text-align: center;
+    position: relative;
+  }
+
+  &__blobLarge {
+    animation: move-up 2000ms infinite alternate;
+  }
+
+  &__blobBean {
+    position: absolute;
+    top: 2.5rem;
+    left: -1rem;
+    z-index: 10;
+    animation: move-down 2000ms infinite alternate;
+  }
+
+  &__blob {
+    position: absolute;
+    z-index: -1;
+  }
+
+  &__blobOne {
+    top: -11rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__blobTwo {
+    top: 15rem;
+    left: 17rem;
+  }
+
+  &__blobThree {
+    right: 5rem;
+    bottom: -24rem;
+  }
+
+  &__blobFour {
+    left: 21rem;
+    bottom: -17rem;
+  }
+}
+
+@keyframes move-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(2rem);
+  }
+}
+
+@keyframes move-down {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-2rem);
+  }
+}
+
+@keyframes hue-shift {
+  from {
+    filter: hue-rotate(0);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
