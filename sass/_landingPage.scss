@@ -25,4 +25,46 @@
     @include grid;
     align-items: center;
   }
+
+  &__contentDetails {
+    max-width: 80%;
+  }
+
+  &__title {
+    font-size: 6rem;
+    color: white;
+  }
+
+  &__description {
+    color: #929fc5;
+    margin-bottom: 2.5rem;
+  }
+
+  &__search {
+    margin-bottom: 2.5rem;
+  }
+
+  &__searchBar,
+  &__searchBtn {
+    border: none;
+    border-radius: 5rem;
+    padding: 2rem;
+    outline: none;
+  }
+
+  &__searchBar {
+    width: calc(100% - 0.5rem);
+  }
+
+  &__searchBtn {
+    width: 10rem;
+    background-image: linear-gradient(to right, #ff83d5, #ffccb0);
+    color: white;
+    margin-left: -10rem;
+    cursor: pointer;
+
+    &:hover {
+      background-image: linear-gradient(to left, #ff83d5, #ffccb0);
+    }
+  }
 }
