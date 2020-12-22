@@ -6,6 +6,10 @@
     @include rwd(large) {
       margin-top: 15rem;
     }
+
+    @include rwd(small) {
+      margin-top: 6.5rem;
+    }
   }
   &__content {
     @include grid;
@@ -73,6 +77,10 @@
 
   &__social {
     display: flex;
+
+    @include rwd(medium) {
+      margin-bottom: 1.5rem;
+    }
   }
 
   &__socialLink {
