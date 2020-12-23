@@ -1,17 +1,43 @@
+https://imgur.com/SPLtTziCSS3
+
 # Miro Landing Page. 🚀
 
-This is a Responsive Landing Page, with some efects. Using CSS Animation.
+This is a simple Responsive Landing Page, with some efects. Using CSS Animation.
 
-##You can cloning and run it.
+- To get started:
 
-1. npm install (to insall all the dependencies)
-2. npm run dev or yarn dev.
+## Clone the repository
+
+```bash
+git clone https://github.com/RenszCamacho/Miro-Landing-Page.git
+cd Miro-Landing-Page
+```
+
+## Install the dependencies
+
+```bash
+#Using npm
+npm install
+
+#Using yarn
+yarn
+```
+
+#Run it live
+
+```bash
+#Build dev
+npm run dev or yarn dev
+
+#Build for Production
+npm run build or yarn build
+```
 
 This is deployed on Netlify.
 
 ## Link. 🔗
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/95620cc7-6a28-435c-9b51-b270ff6612b9/deploy-status)](https://app.netlify.com/sites/miroapp/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f03bff57-5fe8-4273-901c-5f086004d304/deploy-status)](https://app.netlify.com/sites/miroapp/deploys)
 
 https://miroapp.netlify.app/
 
@@ -21,4 +47,5 @@ https://miroapp.netlify.app/
 - CSS3.
 - ParcelJs(Bundler).
 - Sass(Css Pre-precesor).
+- Methodology/BEM(Css Especificity).
 - Git and Github.

@@ -21,11 +21,15 @@
   &__blobBean {
     position: absolute;
     top: 2.5rem;
-    left: -1rem;
+    left: 13rem;
     z-index: 10;
     animation: move-down 2000ms infinite alternate;
 
     //rwd.
+    @include rwd(xxlarge) {
+      left: 2rem;
+    }
+
     @include rwd(medium) {
       width: 30%;
       top: -1rem;
