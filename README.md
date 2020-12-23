@@ -1,4 +1,4 @@
-![https://imgur.com/SPLtTziCSS3](https://imgur.com/SPLtTziCSS3)
+![https://i.imgur.com/SPLtTziCSS3](https://i.imgur.com/SPLtTziCSS3)
 
 # Miro Landing Page. 🚀
 
