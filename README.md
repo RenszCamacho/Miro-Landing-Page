@@ -37,7 +37,7 @@ This is deployed on Netlify.
 
 ## Link. 🔗
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f03bff57-5fe8-4273-901c-5f086004d304/deploy-status)](https://app.netlify.com/sites/miroapp/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/732091ec-06a1-4144-9809-4e3d63ea4f5d/deploy-status)](https://app.netlify.com/sites/miroapp/deploys)
 
 https://miroapp.netlify.app/
 
