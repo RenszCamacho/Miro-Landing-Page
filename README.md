@@ -1,4 +1,4 @@
-![https://i.imgur.com/SPLtTziCSS3](https://i.imgur.com/SPLtTziCSS3)
+<img src="./images/imgMd.webp" alt="home-page" style="height: 100px; width:100px;" />
 
 # Miro Landing Page. 🚀
 
