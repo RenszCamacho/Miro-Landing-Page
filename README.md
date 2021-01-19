@@ -4,7 +4,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/732091ec-06a1-4144-9809-4e3d63ea4f5d/deploy-status)](https://app.netlify.com/sites/miroapp/deploys)
 
-https://miroapp.netlify.app/
+[Miro-Landing-Page](https://miroapp.netlify.app/)
 
 # Miro Landing Page. 🚀
 
